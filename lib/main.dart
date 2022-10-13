@@ -106,7 +106,8 @@ class _HomeState extends State<Home> {
                             id: 1234,
                             channelKey: 'image',
                             title: 'Delivery note',
-                            body: 'Your delivery for soap is now unserway',
+                            body:
+                                'Your delivery for 10Kgs of sugar is now underway\n Click to view progress',
                             bigPicture: 'asset://assets/sugar.png',
                             notificationLayout: NotificationLayout.BigPicture,
                             fullScreenIntent: true, //it will display over app
