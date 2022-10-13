@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  AwesomeNotifications().initialize('assets/madhvani.png', [
+  AwesomeNotifications().initialize(null, [
     // notification icon
     NotificationChannel(
       channelGroupKey: 'basic_test',
