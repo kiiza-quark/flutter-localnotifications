@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  AwesomeNotifications().initialize('resource://drawable/notification_icon', [
+  AwesomeNotifications().initialize('assets/madhvani.png', [
     // notification icon
     NotificationChannel(
       channelGroupKey: 'basic_test',
@@ -84,9 +84,8 @@ class _HomeState extends State<Home> {
                             id: 123,
                             channelKey:
                                 'basic', //set configuration wuth key "basic"
-                            title: 'Welcome to FlutterCampus.com',
-                            body:
-                                'This simple notification is from Flutter App',
+                            title: 'Delivery note',
+                            body: 'You delivery for sugar is now underway',
                             payload: {"name": "FlutterCampus"}));
                   }
                 },
@@ -106,10 +105,9 @@ class _HomeState extends State<Home> {
                             //with asset image
                             id: 1234,
                             channelKey: 'image',
-                            title: 'Simple Notification With Image',
-                            body:
-                                'This simple notification is from Flutter App',
-                            bigPicture: 'asset://assets/sugar.jpg',
+                            title: 'Delivery note',
+                            body: 'Your delivery for soap is now unserway',
+                            bigPicture: 'asset://assets/sugar.png',
                             notificationLayout: NotificationLayout.BigPicture,
                             fullScreenIntent: true, //it will display over app
                             locked: true,
