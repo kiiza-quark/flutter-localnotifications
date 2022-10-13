@@ -109,7 +109,7 @@ class _HomeState extends State<Home> {
                             title: 'Simple Notification With Image',
                             body:
                                 'This simple notification is from Flutter App',
-                            bigPicture: 'asset://assets/images/elephant.jpg',
+                            bigPicture: 'asset://assets/sugar.jpg',
                             notificationLayout: NotificationLayout.BigPicture,
                             fullScreenIntent: true, //it will display over app
                             locked: true,
